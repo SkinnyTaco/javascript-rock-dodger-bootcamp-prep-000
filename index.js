@@ -161,7 +161,7 @@ function moveDodgerRight() {
 
        function moveRight() {
      if (dodgerRightEdge < 400) {
-       DODGER.style.right = `${dodgerRightEdge - 4}px`;
+       DODGER.style.right = `${dodgerRightEdge + 4}px`;
      } 
    }
    
