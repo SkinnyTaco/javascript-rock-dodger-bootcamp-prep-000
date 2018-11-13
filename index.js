@@ -160,7 +160,7 @@ function moveDodgerRight() {
     const dodgerRightEdge = positionToInteger(DODGER.style.right)
 
        function moveRight() {
-     if (dodgerLeftEdge < 360) {
+     if (dodgerRightEdge > 400) {
        DODGER.style.right = `${dodgerLeftEdge - 4}px`;
      } 
    }
